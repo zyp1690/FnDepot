@@ -1,10 +1,10 @@
 {
-  "customIcon": {
+  "excel-batch-tool": {
     "display_name": "splayer",
+    "version": "1.3.2",
     "desc": "splayer,🎉 一个简约的网易云第三方音乐播放器，支持逐字歌词，下载歌曲，展示评论区，音乐云盘及歌单管理，音乐频谱，移动端基础适配 | A minimalist music player",
     "labels": "工具,效率,快捷方式",
-    "version": "2.3.9-Beta",
-    "author": "XIAOBONET",
+    "author": "火舞狂沙",
     "author_url": "",
     "download_url": "",
     "bug_report_url": "",
