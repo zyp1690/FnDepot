@@ -1,18 +1,10 @@
-logo
+
 SPlayer
 一个简约的音乐播放器
 
 API Docs | 交流群 | 开发版 | 发行版
 
 
-Stars Version Build Release License Issues
-
-main
-
-说明
-提示
-
-Important
 
 严肃警告
 请务必遵守 GNU Affero General Public License (AGPL-3.0) 许可协议
