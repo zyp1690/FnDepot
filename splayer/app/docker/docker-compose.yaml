@@ -1,7 +1,0 @@
-services:
- SPlayer:
-  image: imsyy/splayer:latest
-  container_name: splayer
-  ports:
-   - 25884:25884
-  restart: always
