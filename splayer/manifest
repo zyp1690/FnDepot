@@ -1,0 +1,10 @@
+appname               = splayer
+version               = 3.0.0-beta
+display_name          = splayer
+desc                  = splayer,🎉 一个简约的音乐播放器，支持逐字歌词，下载歌曲，展示评论区，音乐云盘及歌单管理，音乐频谱，移动端基础适配 | A minimalist music player
+arch                  = x86_64
+source                = thirdparty
+maintainer_url    = https://github.com/imsyy/SPlayer
+distributor           = 火舞狂沙
+service_port          = 25884
+desktop_applaunchname = splayer.Application

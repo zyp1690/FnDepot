@@ -1,0 +1,13 @@
+{
+    ".url": {
+        "splayer.Application": {
+            "title": "splayer",
+            "icon": "images/icon_64.png",
+            "type": "iframe",
+            "protocol": "http",
+            "port": "25884",
+            "url": "/25884"
+            "allUsers": true
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "docker-project":
+    {
+        "projects":
+        [
+            {
+                "name": "splayer",
+                "path": "docker"
+            }
+        ]
+    },
+    "data-share":
+    {
+        "shares":
+        [
+            {
+                "name": "splayer",
+                "permission":
+                {
+                    "rw":
+                    [
+                        "docker-splayer"
+                    ]
+                }
+            },
+            {
+                "name": "splayer/data",
+                "permission":
+                {
+                    "rw":
+                    [
+                        "docker-splayer"
+                    ]
+                }
+            }
+        ]
+    }
+}
