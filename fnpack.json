@@ -9,7 +9,7 @@
     "download_url": "",
     "bug_report_url": "",
     "install_type": "docker",  
-    "size": "1MB",  
+    "size": "1",  
     "compatibility": "Docker 20.10+/Linux 内核 4.19+", 
     "update_time": "2025-12-25",  
     "history": [  
@@ -31,5 +31,6 @@
     ]
   }
 }
+
 
 
