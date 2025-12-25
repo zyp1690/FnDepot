@@ -10,9 +10,9 @@
     "bug_report_url": "",
     "install_type": "docker",  
     "size": "1MB",  
-    "compatibility": "Docker 20.10+/Linux 内核 4.19+",  // 新增：兼容环境（针对Docker部署）
-    "update_time": "2025-12-25",  // 新增：最新版本更新时间
-    "history": [  // 优化为数组：存储完整版本历史
+    "compatibility": "Docker 20.10+/Linux 内核 4.19+", 
+    "update_time": "2025-12-25",  
+    "history": [  
       {
         "version_number": "3.0.0-beta",
         "update_time": "2025-12-25",
@@ -31,4 +31,5 @@
     ]
   }
 }
+
 
