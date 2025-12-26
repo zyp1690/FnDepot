@@ -23,7 +23,7 @@
     "labels": ["IPTV", "EPG", "Docker", "直播源", "台标管理", "xmltv"],
     "author": "taksssss",
     "author_url": "https://github.com/php-epg",
-    "download_url": "https://github.com/zyp1690/FnDepot/blob/main/php-epg/php-epg.fpk",
+    "download_url": "https://github.com/zyp1690/FnDepot/refs/heads/main/php-epg/php-epg.fpk",
     "bug_report_url": "https://github.com/php-epg/issues",
     "install_type": "docker",
     "size": "约 200MB",
@@ -36,6 +36,7 @@
     }
   }
 }
+
 
 
 
