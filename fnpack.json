@@ -9,7 +9,7 @@
     "download_url": "https://github.com/zyp1690/FnDepot/blob/main/splayer/splayer.fpk",
     "bug_report_url": "",
     "install_type": "docker",
-    "size": "1MB", // 补充单位，可根据实际情况修改为 1KB/1GB 等
+    "size": "1",
     "compatibility": "Docker 20.10+/Linux 内核 4.19+",
     "update_time": "2025-12-25",
     "history": [
@@ -19,6 +19,7 @@
     ]
   }
 }
+
 
 
 
