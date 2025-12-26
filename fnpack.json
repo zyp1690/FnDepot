@@ -6,7 +6,7 @@
     "labels": ["音乐", "播放器", "网易云", "Docker", "轻量"],
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
-    "download_url": "https://github.com/zyp1690/FnDepot/blob/main/splayer/splayer.fpk",
+    "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/refs/heads/main/splayer/splayer.fpk",
     "bug_report_url": "",
     "install_type": "docker",
     "size": "1",
@@ -36,6 +36,7 @@
     }
   }
 }
+
 
 
 
