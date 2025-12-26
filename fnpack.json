@@ -10,7 +10,6 @@
     "bug_report_url": "",
     "install_type": "docker",
     "size": "1",
-    "compatibility": "Docker 20.10+/Linux 内核 4.19+",
     "update_time": "2025-12-25",
     "history": {
       "2025-12-25": "1. 轻量优化：应用包仅98.0 KB，低系统资源占用；2. 原生方案：无需额外环境依赖；3. 新增功能：支持扫码登录网易云、NAS内应用窗口化、兼容反代用户"
@@ -27,7 +26,6 @@
     "bug_report_url": "https://github.com/php-epg/issues",
     "install_type": "docker",
     "size": "约 200MB",
-    "compatibility": "",
     "update_time": "2025-12-14",
     "history": {
       "2025-12-14": "优化 xmltv 格式兼容，修复台标上传bug",
@@ -36,6 +34,7 @@
     }
   }
 }
+
 
 
 
