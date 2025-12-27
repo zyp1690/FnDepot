@@ -1,37 +1,37 @@
 {
   "splayer": {
     "display_name": "splayer 网易云第三方音乐播放器",
-    "version": "3.0.0-beta",
     "desc": "SPlayer 🎉 一个简约的网易云第三方音乐播放器，支持逐字歌词、歌曲下载、评论区展示、音乐云盘及歌单管理、音乐频谱，移动端基础适配 | A minimalist music player",
-    "labels": ["音乐", "播放器", "网易云", "Docker", "轻量"],
+    "labels": "音乐,播放器,网易云,Docker,轻量",
+    "version": "3.0.0-beta",
+    "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/refs/heads/main/splayer/splayer.fpk",
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
-    "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/refs/heads/main/splayer/splayer.fpk",
     "bug_report_url": null,
     "install_type": "docker",
     "size": "98.0 KB",
     "history": {
-      "2025.12.25":"11",
+      "2025-12-25": "1. 轻量优化：应用包仅98.0 KB，低系统资源占用；2. 原生方案：无需额外环境依赖；3. 新增功能：支持扫码登录网易云、NAS内应用窗口化、兼容反代用户"
     }
   },
   "php-epg": {
     "display_name": "php-epg",
-    "version": "2025-12-14",
     "desc": "IPTV 工具箱， Docker 部署，支持 EPG 管理、直播源管理、台标管理，兼容 DIYP/百川、 超级直播以及 xmltv 格式。",
-    "labels": ["IPTV", "EPG", "Docker", "直播源", "台标管理", "xmltv"],
+    "labels": "IPTV,EPG,Docker,直播源,台标管理,xmltv",
+    "version": "2025-12-14",
+    "download_url": "https://github.com/zyp1690/FnDepot/refs/heads/main/php-epg/php-epg.fpk",
     "author": "taksssss",
     "author_url": "https://github.com/php-epg/php-epg",
-    "download_url": "https://github.com/zyp1690/FnDepot/refs/heads/main/php-epg/php-epg.fpk",
     "bug_report_url": "https://github.com/php-epg/php-epg/issues",
     "install_type": "docker",
     "size": "64.3 KB",
     "history": {
-      "2025.12.27":"22",
+      "2025-12-14": "1. 优化 xmltv 格式兼容；2. 修复台标上传bug",
+      "2025-11-01": "1. 新增百川协议适配；2. 完善直播源校验逻辑",
+      "2025-09-05": "1. 初始版本发布；2. 支持基础 EPG 和直播源管理"
     }
   }
 }
-
-
 
 
 
