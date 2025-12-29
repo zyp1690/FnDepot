@@ -1,0 +1,26 @@
+version: '3'  # Compose 文件版本，V3 是主流稳定版本
+services:
+  # 服务名称（对应 --name php-runtime，可自定义，后续引用需一致）
+  php-runtime:
+    # 镜像名称（对应 livecodesvip/php-runtime:latest）
+    image: livecodesvip/php-runtime:latest
+    # 容器名称（对应 --name php-runtime）
+    container_name: php-runtime
+    # 重启策略（对应 --restart=always）
+    restart: always
+    # 端口映射（对应 -p 5080:80 和 -p 5090:8080，格式：宿主端口:容器端口）
+    ports:
+      - "5080:80"
+      - "5090:8080"
+    # 环境变量（对应 -e ADMIN_USER=admin 和 -e ADMIN_PASS=25681542）
+    environment:
+      - ADMIN_USER=admin
+      - ADMIN_PASS=admin
+    # 数据卷挂载（对应 -v php-runtime_repo:/var/www/repo，这里会自动创建命名卷 php-runtime_repo）
+    volumes:
+      - php-runtime_repo:/var/www/repo
+
+# 声明命名卷（确保卷 php-runtime_repo 被正确识别和创建，与命令中的卷名一致）
+volumes:
+  php-runtime_repo:
+    # 此处可省略额外配置，Docker 会默认创建本地命名卷
