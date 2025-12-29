@@ -1,0 +1,1 @@
+清和IPTV源自骆驼IPTV并大改，由原来的PHP+MySql改为Go+Sqlite，支持生成自定义 APK、管理直播源与配置，适合家庭或小型网络部署

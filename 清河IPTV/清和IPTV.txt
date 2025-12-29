@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  iptv_server:
+    image: v1st233/iptv:latest
+    container_name: iptv_server
+    privileged: true  # 添加特权模式
+    ports:
+      - "15760:80" #后台访问端口 左侧15760端口按自己喜欢的修改
+      - "15770:8080" #可选 代理播放端口 左侧15770端口按自己喜欢的修改
+    volumes:
+      - ./config:/config #本地目录
+    restart: unless-stopped
