@@ -30,9 +30,40 @@
       "2025-11-01": "1. 新增百川协议适配；2. 完善直播源校验逻辑",
       "2025-09-05": "1. 初始版本发布；2. 支持基础 EPG 和直播源管理"
     }
+  },
+  "php-runtime": {
+    "display_name": "php-runtime",
+    "desc": "轻量PHP管理器是一款极简PHP环境管理工具，占用资源少、后端管理页：http://ip:5090 ，前端网页：http://ip:5080/xxx.php 。",
+    "labels": "轻量PHP管理器",
+    "version": "2025-12-31",
+    "download_url": "https://github.com/zyp1690/FnDepot/blob/main/php-runtime/php-runtime.fpk",
+    "author": "火舞狂沙",
+    "author_url": "https://github.com/zyp1690/FnDepot/tree/main/php-runtime",
+    "bug_report_url": "/",
+    "install_type": "docker",
+    "size": "64.3 KB",
+    "history": {
+      "2025-12-31": "这家伙很懒，什么也没留下",
+      
+    }
+  },
+  "lingyin": {
+    "display_name": "lingyin",
+    "desc": "lingyin一个简单的网络播放器，自带酷我，网易，JOOX音源，可以直接下载高品质无损音乐,
+    "labels": "音乐播放器，在线听歌",
+    "version": "2025-12-31",
+    "download_url": "https://github.com/zyp1690/FnDepot/blob/main/lingyin/lingyin.fpk",
+    "author": "火舞狂沙",
+    "author_url": "https://github.com/zyp1690/FnDepot/tree/main/lingyin",
+    "bug_report_url": "",
+    "install_type": "docker",
+    "size": "64.3 KB",
+    "history": {
+      "2025-12-31": "这家伙很懒，什么也没留下",
+      
+    }
   }
 }
-
 
 
 
