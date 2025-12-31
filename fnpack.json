@@ -16,7 +16,7 @@
   },
   "php-epg": {
     "display_name": "php-epg",
-    "desc": "IPTV 工具箱， Docker 部署，支持 EPG 管理、直播源管理、台标管理，兼容 DIYP/百川、 超级直播以及 xmltv 格式。",
+    "desc": "IPTV 工具箱， Docker 部署，支持 EPG 管理、直播源管理、台标管理，兼容 DIYP/百川、 超级直播以及 xmltv 格式",
     "labels": "IPTV,EPG,Docker,直播源,台标管理,xmltv",
     "version": "2025-12-14",
     "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/refs/heads/main/php-epg/php-epg.fpk",
@@ -33,7 +33,7 @@
   },
   "php-runtime": {
     "display_name": "php-runtime",
-    "desc": "轻量PHP管理器是一款极简PHP环境管理工具，占用资源少、后端管理页：http://ip:5090 ，前端网页：http://ip:5080/xxx.php 。",
+    "desc": "轻量PHP管理器是一款极简PHP环境管理工具，占用资源少、后端管理页：http://ip:5090 ，前端网页：http://ip:5080/xxx.php ",
     "labels": "轻量PHP管理器",
     "version": "2025-12-31",
     "download_url": "https://github.com/zyp1690/FnDepot/blob/main/php-runtime/php-runtime.fpk",
@@ -64,10 +64,3 @@
     }
   }
 }
-
-
-
-
-
-
-
