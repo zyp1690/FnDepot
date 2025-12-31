@@ -20,7 +20,7 @@
     "labels": "IPTV,EPG,Docker,直播源,台标管理,xmltv",
     "version": "2025-12-14",
     "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/refs/heads/main/php-epg/php-epg.fpk",
-    "author": "taksssss",
+    "author": "火舞狂沙",
     "author_url": "https://github.com/php-epg/php-epg",
     "bug_report_url": "https://github.com/php-epg/php-epg/issues",
     "install_type": "docker",
@@ -62,3 +62,4 @@
     }
   }
 }
+
