@@ -9,10 +9,7 @@
     "author_url": "https://github.com/zyp1690/FnDepot",
     "bug_report_url": null,
     "install_type": "docker",
-    "size": "98.0 KB",
-    "history": {
-      "2025-12-31": "1. 轻量优化：应用包仅98.0 KB，低系统资源占用；2. 原生方案：无需额外环境依赖；3. 新增功能：支持扫码登录网易云、NAS内应用窗口化、兼容反代用户"
-    }
+    "size": "98.0 KB"
   },
   "php-epg": {
     "display_name": "php-epg",
@@ -24,12 +21,7 @@
     "author_url": "https://github.com/php-epg/php-epg",
     "bug_report_url": "https://github.com/php-epg/php-epg/issues",
     "install_type": "docker",
-    "size": "64.3 KB",
-    "history": {
-      "2025-12-14": "1. 优化 xmltv 格式兼容；2. 修复台标上传bug",
-      "2025-11-01": "1. 新增百川协议适配；2. 完善直播源校验逻辑",
-      "2025-09-05": "1. 初始版本发布；2. 支持基础 EPG 和直播源管理"
-    }
+    "size": "64.3 KB"
   },
   "php-runtime": {
     "display_name": "php-runtime",
@@ -41,10 +33,8 @@
     "author_url": "https://github.com/zyp1690/FnDepot/tree/main/php-runtime",
     "bug_report_url": "/",
     "install_type": "docker",
-    "size": "220KB",
-    "history": {
-      "2025-12-31": "这家伙很懒，什么也没留下"
-    }
+    "size": "220KB"
+   
   },
   "lingyin": {
     "display_name": "lingyin",
@@ -56,11 +46,9 @@
     "author_url": "https://github.com/zyp1690/FnDepot/tree/main/lingyin",
     "bug_report_url": "/",
     "install_type": "docker",
-    "size": "118 KB",
-    "history": {
-      "2025-12-31": "这家伙很懒，什么也没留下"
-    }
+    "size": "118 KB"
   }
 }
+
 
 
