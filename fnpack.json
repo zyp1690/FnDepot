@@ -4,7 +4,7 @@
     "desc": "KerKerKer (壳儿) 是一个影视聚合平台，提供现代化、类似 TikTok/短剧 的刷视频体验。它能聚合 Maccms 和 Dailymotion 等平台的视频资源，并自动从豆瓣拉取和匹配影视信息，为用户呈现一个美观且响应式的界面。项目还包含了一个后台管理系统，方便进行内容管理。",
     "labels": "影视资源,Docker,",
     "version": "1.0.0",
-    "download_url": "",
+    "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/refs/heads/main/kerkerker/kerkerker-1.0.0-x86.fpk",
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
     "bug_report_url": "https://github.com/unilei/kerkerker",
@@ -60,6 +60,7 @@
     "size": "118 KB"
   }
 }
+
 
 
 
