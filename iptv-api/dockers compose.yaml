@@ -1,0 +1,22 @@
+services:
+  iptv-api:
+    # 使用最新版iptv-api镜像
+    image: guovern/iptv-api:latest
+    # 容器名称
+    container_name: iptv-api
+    # 重启策略：除非手动停止，否则自动重启
+    restart: unless-stopped
+    # 端口映射：宿主机端口 -> 容器内端口（使用变量）
+    ports:
+      - "${wizard_user_port:-8190}:8080"
+    # 数据卷挂载：持久化配置和输出结果
+    volumes:
+      - ./config:/iptv-api/config
+      - ./output:/iptv-api/output
+    # 环境变量配置（全部使用变量，便于统一调整）
+    environment:
+      - PUBLIC_SCHEME=http
+      - PUBLIC_DOMAIN=${wizard_user_host:-http://192.168.1.36:${wizard_user_port:-8190}
+      - PUBLIC_PORT=${wizard_user_port:-8190}
+      - NGINX_HTTP_PORT=8080
+      - CDN_URL=http://gh.qninq.cn/
