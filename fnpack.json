@@ -4,7 +4,7 @@
     "desc": "⚡️IPTV直播源自动更新平台『🤖全自动采集、筛选、测速、生成🚀』：自定义获取频道；IPv4/IPv6；接口验效；推流；多平台支持；工作流、Docker、命令行、GUI多端部署 | IPTV live streaming source automatic update platform",
     "labels": "IPTV,Docker,，直播源",
     "version": "1.7.3",
-    "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/refs/heads/main/kerkerker/kerkerker-1.0.0-x86.fpk",
+    "download_url": "https://github.com/zyp1690/FnDepot/refs/heads/main/iptv-api/iptv-api-v1.7.3-x86.fpk",
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
     "bug_report_url": "https://github.com/Guovin/iptv-api/",
@@ -72,6 +72,7 @@
     "size": "118 KB"
   }
 }
+
 
 
 
