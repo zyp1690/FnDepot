@@ -10,7 +10,7 @@
 
 **现代化影视资源聚合平台** - 支持 Dailymotion 视频源、豆瓣信息匹配、多种部署方式
 
-🌐 **在线演示**: [https://kerkerker.vercel.app](https://kerkerker.vercel.app)
+
 
 [功能特性](#-功能特性) • [部署方式](#-部署方式) • [环境变量](#-环境变量) • [本地开发](#-本地开发)
 
@@ -58,9 +58,7 @@
 
 ### 方式一：Vercel 部署（推荐）
 
-> 无需服务器，免费托管，自动 HTTPS
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/unilei/kerkerker)
 
 **步骤：**
 
@@ -72,7 +70,7 @@
    ```
 3. 部署完成！
 
-> 💡 **提示**：Vercel 部署需要使用云端 MongoDB（如 [MongoDB Atlas](https://www.mongodb.com/atlas) 免费版）
+
 
 ---
 
