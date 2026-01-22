@@ -1,16 +1,5 @@
 {
- "iptv-api": {
-    "display_name": "iptv-api- IPTV直播源自动更新平台",
-    "desc": "⚡️IPTV直播源自动更新平台『🤖全自动采集、筛选、测速、生成🚀』：自定义获取频道；IPv4/IPv6；接口验效；推流；多平台支持；工作流、Docker、命令行、GUI多端部署 | IPTV live streaming source automatic update platform",
-    "labels": "IPTV,Docker,，直播源",
-    "version": "1.7.3",
-    "download_url": "https://github.com/zyp1690/FnDepot/refs/heads/main/iptv-api/iptv-api-v1.7.3-x86.fpk",
-    "author": "火舞狂沙",
-    "author_url": "https://github.com/zyp1690/FnDepot",
-    "bug_report_url": "https://github.com/Guovin/iptv-api/",
-    "install_type": "docker",
-    "size": "122 KB"
-  },
+
   "kerkerker": {
     "display_name": "壳儿 Kerkerker - 影视资源聚合平台",
     "desc": "KerKerKer (壳儿) 是一个影视聚合平台，提供现代化、类似 TikTok/短剧 的刷视频体验。它能聚合 Maccms 和 Dailymotion 等平台的视频资源，并自动从豆瓣拉取和匹配影视信息，为用户呈现一个美观且响应式的界面。项目还包含了一个后台管理系统，方便进行内容管理。",
@@ -72,6 +61,7 @@
     "size": "118 KB"
   }
 }
+
 
 
 
