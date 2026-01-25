@@ -1,7 +1,10 @@
 # 🎬 Kerkerker - 影视资源聚合平台
-订阅 URL：https://unilei.github.io/kerkerker-config-manager/data/config.enc.json
-解密密码： 111111
-后台管理：IP/login
+订阅 URL：
+https://unilei.github.io/kerkerker-config-manager/data/config.enc.json
+解密密码： 
+111111
+后台管理：
+IP/login
 <div align="center">
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)
