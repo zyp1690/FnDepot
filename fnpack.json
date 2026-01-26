@@ -39,7 +39,7 @@
     "display_name": "php-epg",
     "desc": "IPTV 工具箱， Docker 部署，支持 EPG 管理、直播源管理、台标管理，兼容 DIYP/百川、 超级直播以及 xmltv 格式",
     "labels": "IPTV,EPG,Docker,直播源,台标管理,xmltv",
-    "version": "2025-12-14",
+    "version": "2026.01.26",
     "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/refs/heads/main/php-epg/php-epg.fpk",
     "author": "火舞狂沙",
     "author_url": "https://github.com/php-epg/php-epg",
@@ -72,6 +72,7 @@
     "size": "118 KB"
   }
 }
+
 
 
 
