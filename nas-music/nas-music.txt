@@ -1,0 +1,24 @@
+version: '3'
+services:
+  nas-music:
+    image: zhixinfang/nas-music:latest
+    container_name: nas-music
+    ports:
+      - "12365:3000"    # 将容器内的3000端口映射到宿主机的12365端口
+    volumes:
+      - /vol1/1000/music:/opt/app/music   # 挂载音乐数据目录
+      - ./db:/opt/app/db                  # 挂载应用数据库目录
+    restart: unless-stopped
+
+
+version: '3.8'  # 建议升级版本
+services:
+  nas-music:
+    image: zhixinfang/nas-music:latest
+    container_name: nas-music
+    ports:
+      - "${wizard_user_port:-7788}:3000"  # 环境变量用法正确
+    volumes:
+      - ${wizard_user_contents:-/vol1/1000/music}:/opt/app/music
+      - ./db:/opt/app/db
+    restart: unless-stopped
