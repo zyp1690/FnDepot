@@ -11,6 +11,18 @@
     "install_type": "docker",
     "size": "122 KB"
   },
+    "nas-music": {
+    "display_name": "nas-music- NSA音乐播放器",
+    "desc": "🎵 NAS 音乐服务器(nas-music) 是一个功能强大的基于 Node.js 的音乐服务器，支持本地音乐管理、在线音乐搜索和数据同步功能。",
+    "labels": "music,Docker,，音乐播放器",
+    "version": "1.0.0",
+    "download_url": "https://github.com/zyp1690/FnDepot/refs/heads/main/nas-music/nas-music-1.0.0-x86.fpk",
+    "author": "火舞狂沙",
+    "author_url": "https://github.com/zyp1690/FnDepot",
+    "bug_report_url": "https://gitee.com/yanfanVIP/nas-music",
+    "install_type": "docker",
+    "size": "202 KB"
+  },
   "kerkerker": {
     "display_name": "壳儿 Kerkerker - 影视资源聚合平台",
     "desc": "KerKerKer (壳儿) 是一个影视聚合平台，提供现代化、类似 TikTok/短剧 的刷视频体验。它能聚合 Maccms 和 Dailymotion 等平台的视频资源，并自动从豆瓣拉取和匹配影视信息，为用户呈现一个美观且响应式的界面。项目还包含了一个后台管理系统，方便进行内容管理。",
@@ -61,6 +73,7 @@
  
   }
 }
+
 
 
 
