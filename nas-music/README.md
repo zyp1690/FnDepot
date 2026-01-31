@@ -1,29 +1,7 @@
 # 🎵 NAS 音乐服务器
 
 一个功能强大的基于 Node.js 的音乐服务器，支持本地音乐管理、在线音乐搜索和数据同步功能。
-
-## 📸 系统截图
-
-### 主页面
-![主页面](/screenimg/homepage.png)
-
-### 专辑管理
-![专辑管理](/screenimg/albumpage.png)
-
-### 艺术家管理
-![艺术家管理](/screenimg/artistpage.png)
-
-### 设置页面
-![设置页面](/screenimg/settingpage.png)
-
-### 音乐详情
-![音乐详情](/screenimg/musicdetail.png)
-
-### 艺术家详情
-![艺术家详情](/screenimg/artistdetail.png)
-
 ## ✨ 功能特性
-
 ### 🎵 本地音乐管理
 - **📁 媒体库扫描**: 自动扫描本地音乐文件，支持多种音频格式
 - **🏷️ 元数据提取**: 自动提取音乐文件的标签信息（标题、艺术家、专辑等）
@@ -275,5 +253,6 @@ tail -f app.log | grep ERROR
 - 邮箱：your-email@example.com
 
 ---
+
 
 ⭐ 如果这个项目对你有帮助，请给它一个星标！
