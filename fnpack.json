@@ -27,8 +27,8 @@
     "display_name": "splayer 网易云第三方音乐播放器",
     "desc": "SPlayer 🎉 一个简约的网易云第三方音乐播放器，支持逐字歌词、歌曲下载、评论区展示、音乐云盘及歌单管理、音乐频谱，移动端基础适配 | A minimalist music player",
     "labels": "音乐,播放器,网易云,Docker,轻量",
-    "version": "3.0.0-beta.8",
-    "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/refs/heads/main/splayer/splayer.fpk",
+    "version": "3.0.0-beta.9",
+    "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/refs/heads/main/splayer/splayer-3.0.0-beta.9-x86.fpk",
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
     "bug_report_url": null,
@@ -61,6 +61,7 @@
  
   }
 }
+
 
 
 
