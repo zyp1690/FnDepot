@@ -1,15 +1,22 @@
 {
 "iptv-api": {
     "display_name": "iptv-api- IPTV直播源自动更新平台",
+    "platform": [
+      "x86",
+      "arm"
+    ],
     "desc": "⚡️IPTV直播源自动更新平台『🤖全自动采集、筛选、测速、生成🚀』：自定义获取频道；IPv4/IPv6；接口验效；推流；多平台支持；工作流、Docker、命令行、GUI多端部署 | IPTV live streaming source automatic update platform",
     "labels": "IPTV,Docker,，直播源",
     "version": "1.7.3",
-    "download_url": "https://github.com/zyp1690/FnDepot/refs/heads/main/iptv-api/iptv-api-v1.7.3-x86.fpk",
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
     "bug_report_url": "https://github.com/Guovin/iptv-api/",
     "install_type": "docker",
     "size": "122 KB"
+     "arch_diff": {
+      "x86": {
+        "download_url": "https://github.com/zyp1690/FnDepot/refs/heads/main/iptv-api/nas-music-1.0.0-x86.fpk",
+      },
   },
     "nas-music": {
     "display_name": "nas-music- NSA音乐播放器",
