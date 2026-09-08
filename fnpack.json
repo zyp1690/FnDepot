@@ -5,11 +5,14 @@
       "x86"
     ],
     "desc": "装在飞牛 NAS 上的一站式短剧看剧神器，一个应用聚合全网短剧资源，首页即看、剧场分类、排行搜索全都有。内置接口，内置Node.js",
-    "labels": ["短剧", "影视"],
+    "labels": [
+      "短剧",
+      "影视"
+    ],
     "version": "1.0.1",
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
-    "bug_report_url": "https://github.com/zyp1690/FnDepot/duanju",
+    "bug_report_url": "https://github.com/zyp1690/FnDepot/issues",
     "install_type": "存储空间",
     "size": "38M",
     "arch_diff": {
@@ -18,23 +21,26 @@
       }
     }
   },
-{
   "iptv-api": {
     "display_name": "iptv-api — IPTV直播源自动更新平台",
     "platform": [
       "x86"
     ],
     "desc": "⚡️IPTV直播源自动更新平台『🤖全自动采集、筛选、测速、生成🚀』：自定义获取频道；IPv4/IPv6；接口验效；推流；多平台支持；工作流、Docker、命令行、GUI多端部署 | IPTV live streaming source automatic update platform",
-    "labels": ["IPTV", "Docker", "直播源"],
+    "labels": [
+      "IPTV",
+      "Docker",
+      "直播源"
+    ],
     "version": "1.7.3",
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
-    "bug_report_url": "https://github.com/Guovin/iptv-api/",
+    "bug_report_url": "https://github.com/Guovin/iptv-api/issues",
     "install_type": "存储空间",
-    "size": "122 KB",
+    "size": "122KB",
     "arch_diff": {
       "x86": {
-        "download_url": "./iptv-api/iptv-api-v1.7.3-x86.fpk"
+        "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/main/iptv-api/iptv-api-v1.7.3-x86.fpk"
       }
     }
   },
@@ -44,16 +50,20 @@
       "x86"
     ],
     "desc": "🎵 NAS 音乐服务器(nas-music) 是一个功能强大的基于 Node.js 的音乐服务器，支持本地音乐管理、在线音乐搜索和数据同步功能。",
-    "labels": ["music", "Docker", "音乐播放器"],
+    "labels": [
+      "music",
+      "Docker",
+      "音乐播放器"
+    ],
     "version": "1.0.0",
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
-    "bug_report_url": "https://gitee.com/yanfanVIP/nas-music",
+    "bug_report_url": "https://gitee.com/yanfanVIP/nas-music/issues",
     "install_type": "存储空间",
-    "size": "202 KB",
+    "size": "202KB",
     "arch_diff": {
       "x86": {
-        "download_url": "./nas-music/nas-music-1.0.0-x86.fpk"
+        "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/main/nas-music/nas-music-1.0.0-x86.fpk"
       }
     }
   },
@@ -63,16 +73,19 @@
       "x86"
     ],
     "desc": "KerKerKer (壳儿) 是一个影视聚合平台，提供现代化、类似 TikTok/短剧 的刷视频体验。它能聚合 Maccms 和 Dailymotion 等平台的视频资源，并自动从豆瓣拉取和匹配影视信息，为用户呈现一个美观且响应式的界面。项目还包含了一个后台管理系统，方便进行内容管理。",
-    "labels": ["影视资源", "Docker"],
+    "labels": [
+      "影视资源",
+      "Docker"
+    ],
     "version": "1.0.0",
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
-    "bug_report_url": "https://github.com/unilei/kerkerker",
+    "bug_report_url": "https://github.com/unilei/kerkerker/issues",
     "install_type": "存储空间",
-    "size": "216 KB",
+    "size": "216KB",
     "arch_diff": {
       "x86": {
-        "download_url": "./kerkerker/kerkerker-1.0.0-x86.fpk"
+        "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/main/kerkerker/kerkerker-1.0.0-x86.fpk"
       }
     }
   },
@@ -82,16 +95,23 @@
       "x86"
     ],
     "desc": "IPTV 工具箱， Docker 部署，支持 EPG 管理、直播源管理、台标管理，兼容 DIYP/百川、 超级直播以及 xmltv 格式",
-    "labels": ["IPTV", "EPG", "Docker", "直播源", "台标管理", "xmltv"],
+    "labels": [
+      "IPTV",
+      "EPG",
+      "Docker",
+      "直播源",
+      "台标管理",
+      "xmltv"
+    ],
     "version": "2026.01.26",
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
     "bug_report_url": "https://github.com/php-epg/php-epg/issues",
     "install_type": "存储空间",
-    "size": "64.3 KB",
+    "size": "64.3KB",
     "arch_diff": {
       "x86": {
-        "download_url": "./php-epg/php-epg.fpk"
+        "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/main/php-epg/php-epg.fpk"
       }
     }
   },
@@ -101,16 +121,18 @@
       "x86"
     ],
     "desc": "轻量PHP管理器是一款极简PHP环境管理工具，占用资源少、后端管理页：http://ip:5090 ，前端网页：http://ip:5080/xxx.php ",
-    "labels": ["轻量PHP管理器"],
+    "labels": [
+      "轻量PHP管理器"
+    ],
     "version": "2025.12.31",
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot/tree/main/php-runtime",
-    "bug_report_url": "",
+    "bug_report_url": "https://github.com/zyp1690/FnDepot/issues",
     "install_type": "存储空间",
-    "size": "220 KB",
+    "size": "220KB",
     "arch_diff": {
       "x86": {
-        "download_url": "./php-runtime/php-runtime.fpk"
+        "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/main/php-runtime/php-runtime.fpk"
       }
     }
   }
