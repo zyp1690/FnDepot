@@ -15,7 +15,7 @@
     "size": "122 KB",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/zyp1690/FnDepot/refs/heads/main/iptv-api/iptv-api-v1.7.3-x86.fpk"
+        "download_url": "./iptv-api/iptv-api-v1.7.3-x86.fpk"
       }
     }
   },
@@ -35,7 +35,7 @@
     "size": "202 KB",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/zyp1690/FnDepot/refs/heads/main/nas-music/nas-music-1.0.0-x86.fpk"
+        "download_url": "./nas-music/nas-music-1.0.0-x86.fpk"
       }
     }
   },
@@ -55,7 +55,7 @@
     "size": "216 KB",
     "arch_diff": {
       "x86": {
-        "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/refs/heads/main/kerkerker/kerkerker-1.0.0-x86.fpk"
+        "download_url": "./kerkerker/kerkerker-1.0.0-x86.fpk"
       }
     }
   },
@@ -75,7 +75,7 @@
     "size": "64.3 KB",
     "arch_diff": {
       "x86": {
-        "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/refs/heads/main/php-epg/php-epg.fpk"
+        "download_url": "./php-epg/php-epg.fpk"
       }
     }
   },
@@ -95,7 +95,7 @@
     "size": "220 KB",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/zyp1690/FnDepot/blob/main/php-runtime/php-runtime.fpk"
+        "download_url": "./php-runtime/php-runtime.fpk"
       }
     }
   }
