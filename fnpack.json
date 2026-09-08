@@ -10,7 +10,7 @@
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
     "bug_report_url": "https://github.com/Guovin/iptv-api/",
-    "install_type": "docker",
+    "install_type": "系统空间",
     "size": "122 KB",
     "arch_diff": {
       "x86": {
@@ -29,7 +29,7 @@
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
     "bug_report_url": "https://gitee.com/yanfanVIP/nas-music",
-    "install_type": "docker",
+    "install_type": "系统空间",
     "size": "202 KB",
     "arch_diff": {
       "x86": {
@@ -48,7 +48,7 @@
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
     "bug_report_url": "https://github.com/unilei/kerkerker",
-    "install_type": "docker",
+    "install_type": "系统空间",
     "size": "216 KB",
     "arch_diff": {
       "x86": {
@@ -67,7 +67,7 @@
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot",
     "bug_report_url": "https://github.com/php-epg/php-epg/issues",
-    "install_type": "docker",
+    "install_type": "系统空间",
     "size": "64.3 KB",
     "arch_diff": {
       "x86": {
@@ -86,7 +86,7 @@
     "author": "火舞狂沙",
     "author_url": "https://github.com/zyp1690/FnDepot/tree/main/php-runtime",
     "bug_report_url": "",
-    "install_type": "docker",
+    "install_type": "系统空间",
     "size": "220 KB",
     "arch_diff": {
       "x86": {
