@@ -1,4 +1,24 @@
 {
+  "duanju": {
+    "display_name": "火舞短剧",
+    "platform": [
+      "x86"
+    ],
+    "desc": "装在飞牛 NAS 上的一站式短剧看剧神器，一个应用聚合全网短剧资源，首页即看、剧场分类、排行搜索全都有。内置接口，内置Node.js",
+    "labels": ["短剧", "影视"],
+    "version": "1.0.1",
+    "author": "火舞狂沙",
+    "author_url": "https://github.com/zyp1690/FnDepot",
+    "bug_report_url": "https://github.com/zyp1690/FnDepot/duanju",
+    "install_type": "存储空间",
+    "size": "38M",
+    "arch_diff": {
+      "x86": {
+        "download_url": "https://github.com/zyp1690/FnDepot/releases/download/duanju/duanju.v1.1.fpk"
+      }
+    }
+  },
+{
   "iptv-api": {
     "display_name": "iptv-api — IPTV直播源自动更新平台",
     "platform": [
