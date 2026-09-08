@@ -16,14 +16,6 @@
 - 智能缓存加速：首页秒开、多源并行抓取
 - 自动清理失效接口文件，接口坏了不用手动删
 
-**安装方式**：飞牛应用中心 → 手动安装 → 上传 fpk 包，30 秒装好，浏览器打开即用。
-duanju-native/
-├── manifest                  # 应用元数据（名称/版本/平台）
-├── ICON.PNG / ICON_256.PNG   # 图标
-├── app/
-│   ├── duanju/               # 程序代码（server.js/lib/public/node_modules）
-│   ├── node/bin/node         # 内置 Node.js v20 运行时（linux-x64）
-│   └── ui/config             # 桌面入口（http://NAS:3009）
-├── cmd/main                  # 生命周期脚本：start/stop/status（已配好）
-├── config/                   # 资源与权限声明
-└── wizard/
+*内置Node.js
+[下载文件]  
+https://github.com/zyp1690/FnDepot/releases/download/duanju/duanju.v1.1.fpk
