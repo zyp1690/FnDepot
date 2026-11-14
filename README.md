@@ -1,19 +1,56 @@
-业余时间，纯粹为了玩
+# 火舞应用源 · 飞牛 fnOS 第三方应用源（FnDepot V2）
 
+这里是我（火舞狂沙）自己维护的飞牛 fnOS 应用源，根目录的 `fnpack.json` 就是一份 **FnDepot V2 规范**的索引，可以直接当外部应用源添加。
 
+## 添加方式
 
-Snap Store
-Get it from the Snap Store
+在 FnDepot 的「设置 → 应用源设置 → 添加应用源」中填：
 
-⚙️ Docker 部署
-安装及配置 Docker 将不在此处说明，请自行解决
+```text
+https://github.com/zyp1690/FnDepot
+```
 
-本地构建
-请尽量拉取最新分支后使用本地构建方式，在线部署的仓库可能更新不及时
+JSON 直链（方式二）：
 
+```text
+https://raw.githubusercontent.com/zyp1690/FnDepot/main/fnpack.json
+```
 
-同时，本项目开发者承诺 严格遵守相关法律法规和网易云音乐 API 使用协议，不会利用本项目进行任何违法活动。 如因使用本项目而引起的任何纠纷或责任，均由使用者自行承担。本项目开发者不承担任何因使用本项目而导致的任何直接或间接责任，并保留追究使用者违法行为的权利
+> FnDepot 客户端需 ≥ 0.0.7 才支持 V2 源。
 
-请使用者在使用本项目时遵守相关法律法规，不要将本项目用于任何商业及非法用途。如有违反，一切后果由使用者自负。 同时，使用者应该自行承担因使用本项目而带来的风险和责任。本项目开发者不对本项目所提供的服务和内容做出任何保证
+## 应用列表
 
-感谢您的理解
+| 应用 | 名称 | 版本 | 架构 | 说明 |
+| --- | --- | --- | --- | --- |
+| `ysplive` | ysplive 央视频直播 | 1.1.5 | all | 原生 FPK，免 Docker；央视频直播网页端，三栏界面 + 真节目单 + 全屏播放 + 选台浮层，支持 IPv4/IPv6，频道地址可编辑，另输出 M3U 订阅 |
+| `duanju` | 火舞短剧 | 1.0.5 | x86 | 一站式短剧聚合播放器，内置 Node.js 运行时 |
+| `iptv-api` | IPTV直播源自动更新平台 | 1.7.3 | x86 | 全自动采集、筛选、测速、生成直播源 |
+| `nas-music` | NAS音乐播放器 | 1.0.0 | x86 | Node.js 音乐服务器，本地音乐管理 + 在线搜索 |
+| `kerkerker` | 壳儿 Kerkerker | 1.0.0 | x86 | 影视聚合平台，TikTok 式刷片体验 |
+| `php-epg` | php-epg IPTV 工具箱 | 2026.01.26 | x86 | EPG / 直播源 / 台标管理，兼容 DIYP、XMLTV |
+| `php-runtime` | 轻量PHP管理器 | 2025.12.31 | x86 | 极简 PHP 环境管理，支持多版本切换 |
+
+每个应用的 FPK、图标与 README 都在同名目录里；`ysplive` 的安装包与源码放在独立仓库 <https://github.com/zyp1690/ysplive>，索引里用绝对 URL 指向。
+
+## 目录结构
+
+```text
+FnDepot/
+├── fnpack.json                 # FnDepot V2 索引（客户端固定读这个文件名）
+├── .github/
+│   ├── fnpack-source.json      # 索引来源声明（url + sha256）
+│   └── workflows/sync-fnpack.yml   # 拉取→校验→写入 fnpack.json
+├── duanju/  iptv-api/  nas-music/  kerkerker/  php-epg/  php-runtime/
+│   ├── ICON.PNG
+│   ├── README.md
+│   └── <app>.fpk
+```
+
+## 维护说明
+
+- 新增/修改应用时，不要直接改 `fnpack.json`：把新索引上传后更新 `.github/fnpack-source.json` 的 `url` 与 `sha256`，推送到 `main` 后由 Actions 校验并写入（非法分类、platform、run_as、install_type 会直接让工作流失败，不会污染线上）。
+- 发新版请用新版本号 + 新的 `download_url` / `size` / `sha256`，不要静默替换同版本同名 FPK。
+
+## 致谢与版权
+
+各应用版权归各自上游作者所有，本仓库只做 fnOS 打包适配与索引分发；每个应用目录下的 `README.md` 保留了上游说明。
