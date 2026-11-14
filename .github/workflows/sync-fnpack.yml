@@ -1,7 +1,7 @@
 name: sync-fnpack
 
-# 从 .github/fnpack-source.json 声明的地址拉取 FnDepot V2 索引，校验 sha256 /
-schema 后写入仓库根目录 fnpack.json 并提交。
+# 从 .github/fnpack-source.json 声明的地址拉取 FnDepot V2 索引，
+# 校验 sha256 与 schema 后写入仓库根目录 fnpack.json 并提交。
 # 只在声明文件或本工作流变更时触发，回写提交不会再次触发。
 
 on:
