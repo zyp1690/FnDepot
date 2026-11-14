@@ -1,0 +1,69 @@
+name: sync-fnpack
+
+# 从 .github/fnpack-source.json 声明的地址拉取 FnDepot V2 索引，校验 sha256 /
+schema 后写入仓库根目录 fnpack.json 并提交。
+# 只在声明文件或本工作流变更时触发，回写提交不会再次触发。
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/fnpack-source.json"
+      - ".github/workflows/sync-fnpack.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 拉取、校验并写入
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib, json, pathlib, urllib.request
+
+          CATS = {"影音娱乐", "系统工具", "编程开发", "AI赋能", "生活服务", "智能智控", "教育学习", "游戏地带", "硬件驱动"}
+          src = json.loads(pathlib.Path('.github/fnpack-source.json').read_text('utf-8'))
+          url = src['url']
+          req = urllib.request.Request(url, headers={'User-Agent': 'fndepot-sync'})
+          with urllib.request.urlopen(req, timeout=60) as r:
+              raw = r.read()
+          sha = hashlib.sha256(raw).hexdigest()
+          if src.get('sha256') and sha != src['sha256'].lower():
+              raise SystemExit(f'sha256 mismatch: {sha} != {src["sha256"]}')
+          data = json.loads(raw.decode('utf-8'))
+          assert data['schema_version'] == '2', 'schema_version 必须是字符串 "2"'
+          assert data['source_info']['name'] and data['source_info']['author'], 'source_info.name/author 必填'
+          for name, app in data['apps'].items():
+              cats = app['categories']
+              assert 1 <= len(cats) <= 2, f'{name}: categories 数量非法'
+              bad = [c for c in cats if c not in CATS]
+              assert not bad, f'{name}: 非法分类 {bad}'
+              assert all(p in ('all', 'x86', 'arm') for p in app['platform']), f'{name}: platform 非法'
+              assert app['run_as'] in ('package', 'root'), f'{name}: run_as 非法'
+              assert app['install_type'] in ('', 'root'), f'{name}: install_type 非法'
+              assert isinstance(app['is_docker'], bool), f'{name}: is_docker 非法'
+              assert app['releases'], f'{name}: releases 为空'
+          print(f'apps={len(data["apps"])} sha256={sha} bytes={len(raw)}')
+          for name, app in data['apps'].items():
+              for ver, rel in app['releases'].items():
+                  for arch, pkg in rel['packages'].items():
+                      print(f'  {name} {ver} {arch} size={pkg.get("size")} sha={str(pkg.get("sha256"))[:12]}')
+          pathlib.Path('fnpack.json').write_bytes(raw)
+          PY
+
+      - name: 提交
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fnpack.json
+          if git diff --cached --quiet; then
+            echo "fnpack.json 无变化"; exit 0
+          fi
+          git commit -m "chore: 同步 FnDepot V2 索引 [skip ci]"
+          git push
