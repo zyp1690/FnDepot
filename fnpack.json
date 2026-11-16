@@ -4,7 +4,7 @@
     "name": "火舞应用源",
     "author": "火舞狂沙",
     "homepage": "https://github.com/zyp1690",
-    "description": "火舞狂沙维护的飞牛 fnOS 第三方应用源：短剧、直播、IPTV、音乐、影视聚合与 PHP 环境，全部为可直接安装的 FPK，装完在飞牛桌面即点即用。",
+    "description": "火舞狂沙维护的飞牛 fnOS 第三方应用源：内网管家（公网直连端口转发 + 端口扫描）、短剧、直播、IPTV、音乐、影视聚合与 PHP 环境，全部为可直接安装的 FPK，装完在飞牛桌面即点即用。",
     "i18n": {
       "en-US": {
         "name": "Huowu fnOS Source",
@@ -273,6 +273,39 @@
               "download_url": "https://raw.githubusercontent.com/zyp1690/ysplive/main/ysplive/fpk/ysplive-1.1.8-fnos-all.fpk",
               "sha256": "6173e4a99c32902558876945d44ee6e42d6192d191f270769f889980f148c2b0",
               "size": 395042
+            }
+          }
+        }
+      }
+    },
+    "relaymgr": {
+      "display_name": "内网管家",
+      "desc": "内网管家：跑在飞牛 NAS 上的端口转发与端口扫描工具。把路由器公网端口映射到本机后，外部可直连这里配置的任意 TCP/UDP 端口，转发到内网主机（如 Windows 远程桌面 3389），支持 IPv4/IPv6 双栈、规则增删改即时生效。<br>附带端口扫描：按单 IP、地址区间或网段探测开放端口，识别 Web 面板、NAS、远程桌面与风险端口，并标注本机/网关/新设备。<br>本机端口页列出 NAS 上的监听端口，自动区分 Docker 容器、飞牛应用与系统进程，可一键生成转发。管理界面需口令登录，失败锁定与审计日志齐备。内置青、石墨、深色三套皮肤，设置页一键切换。<br>万变不离其中，远程控制内网主机只需要两步：建一条规则，外部连上来。",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "./relaymgr/ICON.PNG",
+      "readme_url": "./relaymgr/README.md",
+      "bug_report_url": "https://github.com/zyp1690/FnDepot/issues",
+      "maintainer": "火舞狂沙",
+      "maintainer_url": "https://github.com/zyp1690",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": false,
+      "service_port": "8899",
+      "releases": {
+        "1.2.4": {
+          "changelog": "1.2.4 修复监听失败不回滚（建规则时端口被占用或权限不足，规则不再残留占位）；未运行规则补齐统计字段，列表结构统一；拒绝 1024 以下特权端口并给出明确提示。同时包含 1.2.3 统一桌面图标名、重写应用介绍、新增青/石墨/深色三套皮肤并重绘图标；1.2.2「内网发现」更名为「端口扫描」并整体换肤；1.2.1 改名「内网管家」并新增「本机端口」页；1.2.0 扫描页改为起始/结束 IP、速度档、表格与树形图、SMB 检查、CSV 导出。",
+          "updated_at": "2026-11-16T13:10:00+08:00",
+          "os_min_version": "0.8.0",
+          "packages": {
+            "x86": {
+              "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/main/relaymgr/relaymgr-1.2.4-x86_64.fpk",
+              "sha256": "2cb3424911524117835e39c37182d0fccb8ca290e7823629c2cec204b817cd10",
+              "size": 2735573
             }
           }
         }
