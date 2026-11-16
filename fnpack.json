@@ -251,6 +251,18 @@
               "size": 394644
             }
           }
+        },
+        "1.1.7": {
+          "changelog": "按反馈修正交互：单击立即响应（去掉 260ms 等待），点频道列表/信息面板不收起浮层，换台后频道栏不再自动收起；单击播放画面才收起浮层；双击按「350ms 内同一位置」判定进/退全屏，不拖慢单击。",
+          "updated_at": "2026-11-16T08:56:00+08:00",
+          "os_min_version": "0.9.0",
+          "packages": {
+            "all": {
+              "download_url": "https://raw.githubusercontent.com/zyp1690/ysplive/main/ysplive/fpk/ysplive-1.1.7-fnos-all.fpk",
+              "sha256": "7fbba9c7164c4bc312214d2311613f87a5173e90f4ac4284f9ba5a27a793b1bc",
+              "size": 395037
+            }
+          }
         }
       }
     }
