@@ -263,6 +263,18 @@
               "size": 395037
             }
           }
+        },
+        "1.1.8": {
+          "changelog": "去掉「立即收看」大按钮（中栏与播放区两处都删除）：应用打开就自动播放第一个频道并直接进入播放视图；浏览器拦截静音自动播放时，状态条提示「点一下画面开始播放」，点画面即恢复且不会误弹浮层。双击进全屏同时收起浮层，画面保持干净。",
+          "updated_at": "2026-11-16T09:14:00+08:00",
+          "os_min_version": "0.9.0",
+          "packages": {
+            "all": {
+              "download_url": "https://raw.githubusercontent.com/zyp1690/ysplive/main/ysplive/fpk/ysplive-1.1.8-fnos-all.fpk",
+              "sha256": "6173e4a99c32902558876945d44ee6e42d6192d191f270769f889980f148c2b0",
+              "size": 395042
+            }
+          }
         }
       }
     }
