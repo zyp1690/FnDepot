@@ -76,37 +76,6 @@
         }
       }
     },
-    "nas-music": {
-      "display_name": "nas-music — NAS音乐播放器",
-      "desc": "NAS 音乐服务器（nas-music）：基于 Node.js 的音乐服务器，支持本地音乐管理、在线音乐搜索和数据同步，装在飞牛上即可用手机和浏览器听歌。",
-      "platform": [
-        "x86"
-      ],
-      "categories": [
-        "影音娱乐"
-      ],
-      "icon_url": "./nas-music/ICON.PNG",
-      "readme_url": "./nas-music/README.md",
-      "bug_report_url": "https://gitee.com/yanfanVIP/nas-music/issues",
-      "maintainer": "闫帆",
-      "distributor": "火舞狂沙",
-      "distributor_url": "https://github.com/zyp1690/FnDepot",
-      "run_as": "package",
-      "install_type": "",
-      "is_docker": true,
-      "service_port": "3600",
-      "releases": {
-        "1.0.0": {
-          "packages": {
-            "x86": {
-              "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/main/nas-music/nas-music-1.0.0-x86.fpk",
-              "sha256": "ad02c908eab3045e2e16e7505ef35b5ef26cc970177a1e14c11721bb0c7be69b",
-              "size": 207562
-            }
-          }
-        }
-      }
-    },
     "kerkerker": {
       "display_name": "壳儿 Kerkerker — 影视资源聚合平台",
       "desc": "KerKerKer（壳儿）影视聚合平台，提供类似 TikTok / 短剧的刷视频体验，可聚合 Maccms 与 Dailymotion 等资源并自动匹配豆瓣影视信息，自带后台管理。",
@@ -134,6 +103,37 @@
               "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/main/kerkerker/kerkerker-1.0.0-x86.fpk",
               "sha256": "29ce4ec6a73ba3a6844b38d630c19d9b8a0887ae791dec3dfbd3c3277f599e83",
               "size": 221931
+            }
+          }
+        }
+      }
+    },
+    "nas-music": {
+      "display_name": "nas-music — NAS音乐播放器",
+      "desc": "NAS 音乐服务器（nas-music）：基于 Node.js 的音乐服务器，支持本地音乐管理、在线音乐搜索和数据同步，装在飞牛上即可用手机和浏览器听歌。",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "影音娱乐"
+      ],
+      "icon_url": "./nas-music/ICON.PNG",
+      "readme_url": "./nas-music/README.md",
+      "bug_report_url": "https://gitee.com/yanfanVIP/nas-music/issues",
+      "maintainer": "闫帆",
+      "distributor": "火舞狂沙",
+      "distributor_url": "https://github.com/zyp1690/FnDepot",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": true,
+      "service_port": "3600",
+      "releases": {
+        "1.0.0": {
+          "packages": {
+            "x86": {
+              "download_url": "https://raw.githubusercontent.com/zyp1690/FnDepot/main/nas-music/nas-music-1.0.0-x86.fpk",
+              "sha256": "ad02c908eab3045e2e16e7505ef35b5ef26cc970177a1e14c11721bb0c7be69b",
+              "size": 207562
             }
           }
         }
@@ -237,6 +237,18 @@
               "download_url": "https://raw.githubusercontent.com/zyp1690/ysplive/main/ysplive/fpk/ysplive-1.1.5-fnos-all.fpk",
               "sha256": "ca0ad3e372232851657841286ef93f3625d4d00ee625f7366e4eb59426ae94d9",
               "size": 394198
+            }
+          }
+        },
+        "1.1.6": {
+          "changelog": "播放画面改为「双击进/退全屏、单击显示/隐藏频道列表」：单击会先等 260ms 判断是否为双击，避免两个动作互相误触；浮层提示同步更新，全屏 API 增加 webkit/ms 前缀回退，电视盒子与飞牛内置浏览器也能进全屏。",
+          "updated_at": "2026-11-16T08:35:00+08:00",
+          "os_min_version": "0.9.0",
+          "packages": {
+            "all": {
+              "download_url": "https://raw.githubusercontent.com/zyp1690/ysplive/main/ysplive/fpk/ysplive-1.1.6-fnos-all.fpk",
+              "sha256": "b707152d0c05c4d1012cc6608c8e32cadb790678d60c12bfb6aae593081ee4c4",
+              "size": 394644
             }
           }
         }
