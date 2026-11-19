@@ -1,5 +1,5 @@
 {
   "note": "fnpack.json 的来源声明：.github/workflows/sync-fnpack.yml 会从这个地址拉取 V2 索引，校验后写入仓库根目录 fnpack.json。后续改索引只需更新本文件的 url 与 sha256。",
-  "url": "https://raw.githubusercontent.com/zyp1690/FnDepot/2f20faa01ed0a39d2f0684aa8f0e61f5f25f7e97/.github/fnpack-v2.json",
-  "sha256": "e500e1bbd6e55d092d861e5bb52e9235a4a186b0db57c3ea7f2cca4d36848a09"
+  "url": "https://aka.doubaocdn.com/s/4C7pPHZ2Sa",
+  "sha256": "51a2fd33273dc9099844c43ec99ceee70bf3e0a7456621ac6d5b8b2e13e9be3f"
 }
